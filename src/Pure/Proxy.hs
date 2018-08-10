@@ -1,4 +1,4 @@
-{-# LANGUAGE MultiParamTypeClasses, TypeFamilies, DeriveGeneric, ViewPatterns, PatternSynonyms #-}
+{-# LANGUAGE MultiParamTypeClasses, TypeFamilies, DeriveGeneric, ViewPatterns, PatternSynonyms, FlexibleContexts #-}
 module Pure.Proxy where
 
 import Pure
