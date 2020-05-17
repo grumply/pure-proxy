@@ -1,7 +1,7 @@
 {-# LANGUAGE MultiParamTypeClasses, TypeFamilies, DeriveGeneric, ViewPatterns, PatternSynonyms, FlexibleContexts #-}
 module Pure.Proxy where
 
-import Pure
+import Pure hiding (child)
 import Pure.Data.Prop
 
 import Control.Arrow ((&&&))
